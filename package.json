@@ -1,7 +1,10 @@
 {
   "name": "hyphenate.pascalcase",
-  "type": "module",
-  "main": "lib/main.js",
+  "main": "./lib/main.js",
+  "exports": {
+    "require": "./lib/main.js",
+    "import": "./lib/esm.mjs"
+  },
   "version": "0.0.0",
   "author": "Anatoly Chernov <chertoly@gmail.com>",
   "description": "To convert PascalCase to pascal-case.",
