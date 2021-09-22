@@ -1,0 +1,16 @@
+{
+  "name": "hyphenate.pascalcase",
+  "type": "module",
+  "main": "lib/main.js",
+  "version": "0.0.0",
+  "author": "Anatoly Chernov <chertoly@gmail.com>",
+  "description": "To convert PascalCase to pascal-case.",
+  "license": "0BSD",
+  "scripts": {
+    "build": "coffee --compile --output lib src",
+    "start": "coffee --watch --compile --output lib src"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.5.1"
+  }
+}
