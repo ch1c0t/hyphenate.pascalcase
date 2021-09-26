@@ -10,10 +10,11 @@
   "description": "To convert PascalCase to pascal-case.",
   "license": "0BSD",
   "scripts": {
-    "build": "coffee --compile --output lib src",
-    "start": "coffee --watch --compile --output lib src"
+    "build": "coffeelib build",
+    "start": "coffeelib watch"
   },
   "devDependencies": {
+    "coffeelib": "^0.0.1",
     "coffeescript": "^2.5.1"
   }
 }
