@@ -11,10 +11,12 @@
   "license": "0BSD",
   "scripts": {
     "build": "coffeelib build",
-    "start": "coffeelib watch"
+    "start": "coffeelib watch",
+    "test": "jasmine"
   },
   "devDependencies": {
     "coffeelib": "^0.0.1",
-    "coffeescript": "^2.5.1"
+    "coffeescript": "^2.5.1",
+    "jasmine": "^3.9.0"
   }
 }
