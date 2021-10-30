@@ -5,10 +5,14 @@
     "require": "./lib/main.js",
     "import": "./lib/esm.mjs"
   },
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Anatoly Chernov <chertoly@gmail.com>",
   "description": "To convert PascalCase to pascal-case.",
   "license": "0BSD",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ch1c0t/hyphenate.pascalcase"
+  },
   "scripts": {
     "build": "coffeelib build",
     "start": "coffeelib watch",
